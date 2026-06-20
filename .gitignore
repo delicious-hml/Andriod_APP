@@ -1,0 +1,31 @@
+# Built outputs
+*.apk
+*.ap_
+*.aab
+*.idsig
+app-aligned.apk
+
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Local config
+local.properties
+
+# Signing key (do NOT commit to public repo)
+release-key.jks
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Kotlin
+*.kotlin_module
